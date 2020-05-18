@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     @IBOutlet private var passwordTextField: UITextField!
     @IBOutlet private var displayNameTextField: UITextField!
     
+    //MARK: - LifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,6 +106,4 @@ class LoginViewController: UIViewController {
             }
         }
     }
-    
-    
 }

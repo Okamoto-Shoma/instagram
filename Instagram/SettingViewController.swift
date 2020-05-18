@@ -16,6 +16,7 @@ class SettingViewController: UIViewController {
     
     @IBOutlet private var displayNameTextField: UITextField!
     
+    //MARK: - LifeCycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
