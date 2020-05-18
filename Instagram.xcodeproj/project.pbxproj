@@ -13,6 +13,7 @@
 		C1959548246A5E5000F985CE /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1959546246A5E5000F985CE /* PostTableViewCell.swift */; };
 		C1959549246A5E5000F985CE /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1959547246A5E5000F985CE /* PostTableViewCell.xib */; };
 		C1959561246D2CE100F985CE /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1959560246D2CE100F985CE /* CommentViewController.swift */; };
+		C195956924725F2100F985CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C195956824725F2000F985CE /* GoogleService-Info.plist */; };
 		C1C7CD472465137C00346957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7CD462465137C00346957 /* AppDelegate.swift */; };
 		C1C7CD492465137C00346957 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7CD482465137C00346957 /* SceneDelegate.swift */; };
 		C1C7CD4E2465137C00346957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C7CD4C2465137C00346957 /* Main.storyboard */; };
@@ -24,7 +25,6 @@
 		C1C7CD6124651DFF00346957 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7CD6024651DFF00346957 /* PostViewController.swift */; };
 		C1C7CD6324651E0D00346957 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7CD6224651E0D00346957 /* SettingViewController.swift */; };
 		C1C7CD65246528B600346957 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7CD64246528B600346957 /* TabBarController.swift */; };
-		C1C7CD692465358900346957 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1C7CD682465358900346957 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +36,7 @@
 		C1959546246A5E5000F985CE /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		C1959547246A5E5000F985CE /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		C1959560246D2CE100F985CE /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		C195956824725F2000F985CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C1C7CD432465137C00346957 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C7CD462465137C00346957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C7CD482465137C00346957 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		C1C7CD6024651DFF00346957 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C1C7CD6224651E0D00346957 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		C1C7CD64246528B600346957 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		C1C7CD682465358900346957 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 				C1C7CD482465137C00346957 /* SceneDelegate.swift */,
 				C1C7CD4C2465137C00346957 /* Main.storyboard */,
 				C1C7CD4F2465137E00346957 /* Assets.xcassets */,
-				C1C7CD682465358900346957 /* GoogleService-Info.plist */,
+				C195956824725F2000F985CE /* GoogleService-Info.plist */,
 				C1C7CD512465137E00346957 /* LaunchScreen.storyboard */,
 				C1C7CD542465137E00346957 /* Info.plist */,
 				C1C7CD64246528B600346957 /* TabBarController.swift */,
@@ -186,7 +186,7 @@
 			files = (
 				C1C7CD532465137E00346957 /* LaunchScreen.storyboard in Resources */,
 				C1959549246A5E5000F985CE /* PostTableViewCell.xib in Resources */,
-				C1C7CD692465358900346957 /* GoogleService-Info.plist in Resources */,
+				C195956924725F2100F985CE /* GoogleService-Info.plist in Resources */,
 				C1C7CD502465137E00346957 /* Assets.xcassets in Resources */,
 				C1C7CD4E2465137C00346957 /* Main.storyboard in Resources */,
 			);
